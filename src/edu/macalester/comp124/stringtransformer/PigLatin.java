@@ -1,7 +1,5 @@
 package edu.macalester.comp124.stringtransformer;
 
-import java.util.Arrays;
-
 public class PigLatin extends StringTransformer {
 
     @Override

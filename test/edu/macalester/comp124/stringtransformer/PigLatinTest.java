@@ -17,6 +17,7 @@ public class PigLatinTest {
     public void vowelPigTest() {
         assertEquals("awesomeyay", pig.transform("awesome"));
         assertEquals("upsideyay", pig.transform("upside"));
+        assertEquals("oddyay", pig.transform("odd"));
     }
 
     @Test
