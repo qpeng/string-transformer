@@ -29,6 +29,14 @@ All `r`s are changed to `rrr`s. 25% of sentences end with a random choice betwee
 
 The characters in each word are reversed.
 
+### Sidney, 3 years
+
+Every internal `s` (not first or last character of word) is replaced with a `y`. `S`s that start a word and are followed by a second non-`s` consonant are dropped.
+
+### Stella, 1 year
+
+Every consecutive string of consonants are replaced with a single `g`, `m` or `b`. Long words are cut off starting at the third set of consonants.
+
 ### Scrambler
 
 The letters in each word are shuffled and appear in a random order.
