@@ -14,7 +14,7 @@ public class IMIfier extends IdentityTransformer{
         Random random = new Random();
         int insert = random.nextInt(4);
         if (insert == 1) {
-            int word = random.nextInt(4);
+            int word = random.nextInt(6);
             if (word == 0) {
                 s += " lol";
             }
@@ -29,6 +29,9 @@ public class IMIfier extends IdentityTransformer{
             }
             if (word == 4) {
                 s += " rofl";
+            }
+            if (word == 5) {
+                s += " u jelly bro?";
             }
         }
         return s;
