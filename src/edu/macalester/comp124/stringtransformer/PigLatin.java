@@ -1,5 +1,14 @@
 package edu.macalester.comp124.stringtransformer;
 
+/**
+ * String transformer lab.
+ * Our code takes an english word and translates it into Pig Latin.
+ * Leo disagreed with the interpretation of Pig Latin on the sheet,
+ * specifically the last rule, and so our program will instead
+ * return "ymay" if given the word "my."
+ * @author Leo Zoeckler and Judy Syrkin-Nikolau.
+ */
+
 public class PigLatin extends StringTransformer {
 
     @Override
