@@ -31,7 +31,7 @@ The characters in each word are reversed.
 
 ### Sidney, 3 years
 
-Every internal `s` (not first or last character of word) is replaced with a `y`. `S`s that start a word and are followed by a second non-`s` consonant are dropped.
+Every internal `l` (not first or last character of word) is replaced with a `y`. `S`s that start a word and are followed by a second non-`s` consonant are dropped.
 
 ### Stella, 1 year
 
