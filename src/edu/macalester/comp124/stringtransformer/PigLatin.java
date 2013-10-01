@@ -5,7 +5,7 @@ package edu.macalester.comp124.stringtransformer;
  * Our code takes an english word and translates it into Pig Latin.
  * Leo disagreed with the interpretation of Pig Latin on the sheet,
  * specifically the last rule, and so our program will instead
- * return "ymay" if given the word "my."
+ * return "ymay" if given the word "my" as opposed to "myyay."
  * @author Leo Zoeckler and Judy Syrkin-Nikolau.
  */
 
