@@ -8,10 +8,10 @@ public class PigLatinTest {
 
     private final StringTransformer pig = new PigLatin();
 
-//    @Test
-//    public void handlesEmptyString() {
-//        assertEquals("", pig.transform(""));
-//    }
+    @Test
+    public void handlesEmptyString() {
+        assertEquals("", pig.transform(""));
+    }
 
     @Test
     public void vowelPigTest() {
@@ -27,5 +27,6 @@ public class PigLatinTest {
         assertEquals("ingstray", pig.transform("string"));
         assertEquals("ythmrhay", pig.transform("rhythm"));
         assertEquals("ellowyay", pig.transform("yellow"));
+        assertEquals("ymay", pig.transform("my"));
     }
 }

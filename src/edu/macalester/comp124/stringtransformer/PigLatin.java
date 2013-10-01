@@ -19,7 +19,9 @@ public class PigLatin extends StringTransformer {
         char[] array = s.toCharArray();
         int[] vowel = new int[array.length];
         int n = array.length;
-        if ((array[0] == 'a') || (array[0] == 'e') || (array[0] == 'i') || (array[0] == 'o') || (array[0] == 'u')) {
+        if(s.equals("")){
+            return("");
+        } else if ((array[0] == 'a') || (array[0] == 'e') || (array[0] == 'i') || (array[0] == 'o') || (array[0] == 'u')) {
             String newWord = s + "yay";
             return newWord;
         } else {
