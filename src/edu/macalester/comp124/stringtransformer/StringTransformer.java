@@ -2,13 +2,15 @@ package edu.macalester.comp124.stringtransformer;
 
 import java.util.Scanner;
 
+import acm.program.ConsoleProgram;
+
 /**
  * A StringTransformer applies some transformation to a string, or to each word within a string.
  * Subclasses should override the transform() method.
  * 
  * @author Paul
  */
-public abstract class StringTransformer {
+public abstract class StringTransformer extends ConsoleProgram {
     
     /**
      * Apply some transformation to the input string, and return the result.
