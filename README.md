@@ -12,9 +12,9 @@ In this lab, you will practice:
 
 I have created an abstract class called StringTransformer. You will create subclasses of it, which transform text in various amusing ways. 
 
-I’ve created two examples for you: Yeller, and IdentityTransformer. Take a look at those two classes, study how they work, and try them out in the TransformerTestUI. Look for their tests in the test directory.
+I’ve created two examples for you: Yeller, and IdentityTransformer. Take a look at those two classes, study how they work, and their junit tests, and try them out in the TransformerTestUI. 
 
-Once you feel ready to create your own StringTransformer, head up to the front of the room, where I have brief specifications for a wide variety of transformers. Pick an appealing one, implement it, write tests for it, and try it in the UI. (I added some magic to the UI to detect all subclasses of StringTransformer. Once you’ve created your transformer, it should show up automatically)
+Once you feel ready to create your own StringTransformer, head up to the front of the room, where I have brief specifications for a wide variety of transformers. Pick an appealing one, implement it, **write tests for it**, and try it in the UI. (I added some magic to the UI to detect all subclasses of StringTransformer. Once you’ve created your transformer, it should show up automatically)
 
 Once it is working, commit and push! Because we are all sharing the same repository, you will see everybody else’s transformers when you pull. Having multiple people pushing and pulling from the same repository will create new problems, which you’ll have to work through.
 
