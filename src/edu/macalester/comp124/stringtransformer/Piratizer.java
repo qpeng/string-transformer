@@ -4,19 +4,23 @@ Date: 10/1/13 Time: 10:27 AM
 
 */
 
+import acm.util.RandomGenerator;
+
+
 public class Piratizer extends StringTransformer {
 
     @Override
     public String transform(String s) {
-//        for (int i = 0; i < s.length(); i++) {
-//            char y = s.charAt(i);
-//            if (y == 'r') {
-//                s.replace(y, )
-//
-//            }
-//
-//        }
-        return s.replaceAll("r", "rrr");
+        RandomGenerator randomGenerator = new RandomGenerator();
+        int number = randomGenerator.nextInt(1,4);
+        if (number == 1) {
+
+            String newString1 = s + " Ahoy!";
+            return newString1;
+        }
+
+        String newString2 = s.replace("r", "rrr");
+        return newString2;
 
     }
 
