@@ -100,6 +100,7 @@ public class TransformerTestUI extends Program {
         sampleTextPane = new JTextPane();
         sampleTextPane.setFont(new Font("Palatino", Font.PLAIN, 18));
         add(new JScrollPane(sampleTextPane), CENTER);
+        validate();
     }
 
     private void updateTransformerOutput() {
