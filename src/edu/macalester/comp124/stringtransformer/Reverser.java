@@ -2,7 +2,6 @@ package edu.macalester.comp124.stringtransformer;
 
 public class Reverser extends StringTransformer {
 
-    @Override
     public String transform(String s) {
         String rev= "";
         for (int i=0;i<s.length();i++) {
